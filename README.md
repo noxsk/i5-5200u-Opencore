@@ -54,9 +54,10 @@ PS：目前我的MacOS工作在Layout id **15**的情况下没有任何异常。
 更新驱动  
 (MacOS12.4测试成功)  
 ### 2022.3.26  
-更新至OpenCore 0.8.0  
-更新驱动  
-(MacOS 12.3 测试完成)
+更新至OpenCore 0.8.0   
+更新驱动   
+(MacOS 12.3 测试完成)   
+完善Readme.md使其符合Markdown标准
 ### 2022.3.4  
 更新了layout id 为 **15**  
 删除了英文文档  
