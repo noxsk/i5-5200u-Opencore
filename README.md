@@ -36,7 +36,7 @@ sudo pmset -a disablesleep 0;
 2.修改主板设置。  
 Boot-Boot Mode 改为 ** UEFI **（必要）  
 Boot-Secure Boot 改为 ** Diskabled ** （如果无法修改请先设置Bios密码） （必要）  
-Main-F12 Boot menu 改为** Enabled **，便于临时修改引导项。 （非必要）  
+Main-F12 Boot menu 改为 ** Enabled ** ，便于临时修改引导项。 （非必要）  
 ### 引导OC时页面键鼠不可用
 可以在引导界面时，按住下键并插拔有响应的USB设备（u盘·鼠标·iPhone）
 ### 跑完代码后黑屏
