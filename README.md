@@ -50,9 +50,9 @@ PS：目前我的MacOS工作在Layout id **15**的情况下没有任何异常。
 ## 更新日志    
 部分日志继承自[gatesx/Acer-v3-547H-OC-EFI-i5-5200u](https://github.com/gatesx/Acer-v3-371-547H-OC-EFI-i5-5200u)  
 ### 202.7.9
-基于OpenCore 0.8.2完整重配
-更新驱动
-(MacOS12.4测试成功)
+基于OpenCore 0.8.2完整重配  
+更新驱动  
+(MacOS12.4测试成功)  
 ### 2022.3.26  
 更新至OpenCore 0.8.0  
 更新驱动  
