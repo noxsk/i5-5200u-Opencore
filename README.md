@@ -1,8 +1,8 @@
 # i5-5200u-Opencore
 ##  硬件配置
 详细配置请查看官网数据库：https://www.acer.com/datasheets/2014/4876/V3-371/NX.MPFCN.015.html   
-硬盘 ： 三星870evo 250GB    
-无线网卡（蓝牙及WIFI）：BCM943224PCIET2（`NGFF`转卡）（自行更换），我已经设置内核版本号来适配Monterey与旧的MacOS的蓝牙   
+硬盘 ： 三星870evo 250GB      
+无线网卡（蓝牙及WIFI）：BCM943224PCIET2（**NGFF**转卡）（自行更换），我已经设置内核版本号来适配Monterey与旧的MacOS的蓝牙驱动     
 ## 驱动情况
 已基本完美驱动
 ### 已驱动硬件
@@ -18,7 +18,16 @@ USB均可用
 附：Fn键+方向键操作可用。（调节音量/亮度）
 ### 已知问题
 休眠存在问题
-
+全面禁用   
+```
+sudo pmset -a sleep 0;   
+sudo pmset -a disablesleep 1;
+```
+取消禁用    
+```
+sudo pmset -a sleep 1;    
+sudo pmset -a disablesleep 0;   
+```
 ## 注意事项
 这些解决方法一般只适用于一模一样的机型。
 ### 安装前注意事项
@@ -36,13 +45,17 @@ Main-F12 Boot menu 改为** Enabled **，便于临时修改引导项。 （非�
 推荐使用下面的项目：  
 [xzhih/one-key-hidpi](https://github.com/xzhih/one-key-hidpi)
 ### Layout id
-AppleAlc在2016.5.16发布的0.1.10中添加了V3-371驱动Alc283的layout id，但其存在耳机孔大量杂音及扬声器不使用时电流声的问题，在多次测试下，layout ID ** 15 ** 在扬声器，耳机孔，麦克风的工作中更加顺利，并且没有烦人的电流声。
+AppleAlc在2016.5.16发布的0.1.10中添加了V3-371驱动Alc283的layout id，但其存在耳机孔大量杂音及扬声器不使用时电流声的问题，在多次测试下，layout ID ** 15 ** 在扬声器，耳机孔，麦克风的工作中更加顺利，并且没有烦人的电流声。  
 PS：目前我的MacOS工作在Layout id ** 15 **的情况下没有任何异常。  
 ## 更新日志[gatesx/Acer-v3-547H-OC-EFI-i5-5200u](部分版本继承至https://github.com/gatesx/Acer-v3-371-547H-OC-EFI-i5-5200u)  
+### 202.7.9
+基于OpenCore 0.8.2完整重配
+更新驱动
+(MacOS12.4测试成功)
 ### 2022.3.26  
-更新OpenCore至0.8.0  
+更新至OpenCore 0.8.0  
 更新驱动  
-（MacOS 12.3 测试完成）  
+(MacOS 12.3 测试完成)
 ### 2022.3.4  
 更新了layout id 为 ** 15 **  
 删除了英文文档  
