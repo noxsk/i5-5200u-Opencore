@@ -70,7 +70,6 @@ OpenCore版本升级至 0.7.7 （稳定通道）
 ### 2022.1.17  
 添加了读卡器驱动，系统信息面板信息可以读取，但没有CD卡来让我测试。  
 
-## 赞赏  
-
-![Wechat](https://user-images.githubusercontent.com/84220224/149635235-3f295841-d2cf-4579-b2a7-00b5345ff77e.jpg)
-![Alipay](https://user-images.githubusercontent.com/84220224/149635237-1d548a3f-12c8-4c4b-81a8-08b455b9801f.jpg)
+## 赞赏   
+![Wechat](https://user-images.githubusercontent.com/108464559/178111133-1902d02d-3d43-4bdb-b88f-2d3d695f7d70.JPG)   
+![Alipay](https://user-images.githubusercontent.com/108464559/178111152-2ab9e2f5-d49c-4de9-95e7-e781cab4e712.JPG)
