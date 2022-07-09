@@ -45,7 +45,7 @@ Main-F12 Boot menu 改为**Enabled**，便于临时修改引导项。 （非必�
 推荐使用下面的项目：  
 [xzhih/one-key-hidpi](https://github.com/xzhih/one-key-hidpi)
 ### Layout id
-AppleAlc在2016.5.16发布的0.1.10中添加了V3-371驱动Alc283的layout id，但其存在耳机孔大量杂音及扬声器不使用时电流声的问题，在多次测试下，layout ID ** 15 ** 在扬声器，耳机孔，麦克风的工作中更加顺利，并且没有烦人的电流声。  
+AppleAlc在2016.5.16发布的0.1.10中添加了V3-371驱动Alc283的layout id，但其存在耳机孔大量杂音及扬声器不使用时电流声的问题，在多次测试下，layout ID **15** 在扬声器，耳机孔，麦克风的工作中更加顺利，并且没有烦人的电流声。  
 PS：目前我的MacOS工作在Layout id **15**的情况下没有任何异常。  
 ## 更新日志[gatesx/Acer-v3-547H-OC-EFI-i5-5200u](部分版本继承至https://github.com/gatesx/Acer-v3-371-547H-OC-EFI-i5-5200u)  
 ### 202.7.9
@@ -57,7 +57,7 @@ PS：目前我的MacOS工作在Layout id **15**的情况下没有任何异常。
 更新驱动  
 (MacOS 12.3 测试完成)
 ### 2022.3.4  
-更新了layout id 为 ** 15 **  
+更新了layout id 为 **15**  
 删除了英文文档  
 PS：OC0.7.8暂不更新。  
 ### 2022.1.22  
