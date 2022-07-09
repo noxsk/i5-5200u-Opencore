@@ -34,9 +34,9 @@ sudo pmset -a disablesleep 0;
 1.更新主板Bios至最新。  
 [下载地址](https://www.acer.com.cn/support.html?type=1)  
 2.修改主板设置。  
-Boot-Boot Mode 改为 ** UEFI **（必要）  
-Boot-Secure Boot 改为 ** Diskabled ** （如果无法修改请先设置Bios密码） （必要）  
-Main-F12 Boot menu 改为 ** Enabled ** ，便于临时修改引导项。 （非必要）  
+Boot-Boot Mode 改为**UEFI**（必要）  
+Boot-Secure Boot 改为**Diskabled**（如果无法修改请先设置Bios密码） （必要）  
+Main-F12 Boot menu 改为**Enabled**，便于临时修改引导项。 （非必要）  
 ### 引导OC时页面键鼠不可用
 可以在引导界面时，按住下键并插拔有响应的USB设备（u盘·鼠标·iPhone）
 ### 跑完代码后黑屏
@@ -46,7 +46,7 @@ Main-F12 Boot menu 改为 ** Enabled ** ，便于临时修改引导项。 （非
 [xzhih/one-key-hidpi](https://github.com/xzhih/one-key-hidpi)
 ### Layout id
 AppleAlc在2016.5.16发布的0.1.10中添加了V3-371驱动Alc283的layout id，但其存在耳机孔大量杂音及扬声器不使用时电流声的问题，在多次测试下，layout ID ** 15 ** 在扬声器，耳机孔，麦克风的工作中更加顺利，并且没有烦人的电流声。  
-PS：目前我的MacOS工作在Layout id ** 15 **的情况下没有任何异常。  
+PS：目前我的MacOS工作在Layout id **15**的情况下没有任何异常。  
 ## 更新日志[gatesx/Acer-v3-547H-OC-EFI-i5-5200u](部分版本继承至https://github.com/gatesx/Acer-v3-371-547H-OC-EFI-i5-5200u)  
 ### 202.7.9
 基于OpenCore 0.8.2完整重配
