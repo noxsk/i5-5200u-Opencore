@@ -41,7 +41,7 @@ Main-F12 Boot menu 改为**Enabled**，便于临时修改引导项。 （非必�
 可以在引导界面时，按住下键并插拔有响应的USB设备（u盘·鼠标·iPhone）
 ### 跑完代码后黑屏
 此时其实MacOS已经启动了，你需要闭合屏幕再打开（不要闭合太久否则系统会睡眠重启），如果背光暗着就点下键盘（任意键）。  
-解决方法：（居然系统后）通过开启hidpi和注入eeid。  
+解决方法：（进入系统后）通过开启hidpi和注入eeid。  
 推荐使用下面的项目：  
 [xzhih/one-key-hidpi](https://github.com/xzhih/one-key-hidpi)
 ### Layout id
