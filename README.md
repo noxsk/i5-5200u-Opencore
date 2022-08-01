@@ -1,4 +1,6 @@
 # i5-5200u-Opencore
+##  警告
+MacOS 13删除了大量的驱动，升级后核显将无法驱动
 ##  硬件配置
 详细配置请查看官网数据库：https://www.acer.com/datasheets/2014/4876/V3-371/NX.MPFCN.015.html   
 硬盘 ： 三星870evo 250GB      
