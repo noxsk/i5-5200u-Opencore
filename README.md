@@ -1,4 +1,5 @@
 # i5-5200u-Opencore
+注意⚠️：本文档正在修改，已发布pre-release版本，更改内容过多相关文档未能跟进，如果有建议可以开issues
 ##  警告
 MacOS 13删除了大量的驱动，升级后核显将无法被系统正常驱动驱动，可以使用**OpenCore-Legacy-Patcher**驱动，见结尾。
 ##  硬件配置
